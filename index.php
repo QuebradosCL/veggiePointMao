@@ -43,7 +43,7 @@
     <!-- Promociones  -->
         <div class="row">
             <div class="col-md-12">
-            <center><h4>PROMOCIONES</h4></center>
+            <center><h4 class="who">PROMOCIONES</h4></center>
             </div>
             <div class="col-md-12">
             <?php
@@ -75,7 +75,7 @@
     <!-- menus -->
         <div class="row">
             <div class="col-md-12">
-            <center> <h4> MENÚS </h4> </center>
+            <center> <h4 class="who"> MENÚS </h4> </center>
             </div>
             <div class="col-md-12">
             <?php

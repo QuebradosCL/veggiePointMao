@@ -54,7 +54,7 @@
 					<h4>Subir nueva imagen</h4>
 					<input class="thumbnail" name="archivo-a-subir" type="file" >				
 					<br>
-					<img width="300px" class="img-fluid thumbnail" src="..<?php echo $row['URLMENU']; ?>">
+					<img width="300px" class="img-fluid thumbnail" src="../<?php echo $row['URLMENU']; ?>">
 					<br>
 					<div class="col-md-4">
 						<button class="btn btn-primary">Guardar</button>

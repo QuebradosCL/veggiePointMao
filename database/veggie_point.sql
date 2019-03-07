@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 06-03-2019 a las 04:49:03
+-- Tiempo de generación: 07-03-2019 a las 18:17:56
 -- Versión del servidor: 10.1.37-MariaDB
 -- Versión de PHP: 7.2.14
 
@@ -41,7 +41,13 @@ CREATE TABLE `advancement` (
 --
 
 INSERT INTO `advancement` (`IDADVENCEMENT`, `VALUEADCENMENT`, `ADVANCEMENTDESCRIPTION`, `URLADVANCEMENT`, `NAMEADVANCEMENT`) VALUES
-(1, 12, 's', '/images/promos/8AF.jpg', 'a');
+(3, 1300, 'Esto es una descripcion, Esto es una descripcion, Esto es una descripcion, Esto es un_a descripcion, Esto es una descripcion, Esto es una descripcion, Esto es una descripci-n, Esto es una descripcion, Esto es una descripcion, Esto es una descripcion, Esto es una descripciÃ³n, Esto es una descripcion, Esto es una descripcion, Esto es una descripcion, Esto es una descripcion...', 'images/promos/0D0.jpg', 'Promocion 01'),
+(4, 1500, 'Esto es una descripcion, Esto es una descripcion, Esto es una descripcion, Esto es un_a descripcion, Esto es una descripcion, Esto es una descripcion, Esto es una descripci-n, Esto es una descripcion, Esto es una descripcion, Esto es una descripcion, Esto es una descripciÃ³n, Esto es una descripcion, Esto es una descripcion, Esto es una descripcion, Esto es una descripcion...', 'images/promos/2B5.jpg', 'Promocion 02'),
+(5, 1900, 'Esto es una descripcion, Esto es una descripcion, Esto es una descripcion, Esto es un_a descripcion, Esto es una descripcion, Esto es una descripcion, Esto es una descripci-n, Esto es una descripcion, Esto es una descripcion, Esto es una descripcion, Esto es una descripciÃ³ncion, Esto es una descripcion, Esto es una descripcion, Esto es una descripcion...', 'images/promos/15134723_712949428874537_3438863859573310816_n.png', 'Promocion 03'),
+(6, 5000, 'Esto es ujasjdksjdksajd.,sadkajsdlkasjd kjsadlkjsadlkajs aslkdjaslkdjsalkdj sakdjaskldjsakld ksajdlkasjd alksdjlk sjasdaksjdlaksjd lksajdalksjd kla askdjaslkdj asdlkasdlk jasdlkjasdlkj askldaslkdj aslkdjaslkd', 'images/promos/7F3.jpg', 'Promocion 04'),
+(7, 85090, 'Esto es una decsipf; dEsto es una decsipf; dEsto es una decsipf; dEsto es una decsipf; dEsto es una decsipf; dEsto es una decsipf; dEsto es una decsipf; dEsto es una decsipf; dEsto es una decsipf; dEsto es una decsipf; dEsto es una decsipf; dEsto es una decsipf; dEsto es una decsipf; dEsto es una decsipf; dEsto es una decsipf; dEsto es una decsipf; dEsto es una decsipf; dEsto es una decsipf; d', 'images/promos/8le52.jpg', 'promocion 5'),
+(9, 16000, 'saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e ', 'images/promos/pepe.jpg', 'promo 6'),
+(10, 159000, 'saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e saasdsaddas, e ', 'images/promos/hqdefauslt.jpg', 'sasasas');
 
 -- --------------------------------------------------------
 
@@ -61,7 +67,7 @@ CREATE TABLE `contact` (
 --
 
 INSERT INTO `contact` (`IDCONTACT`, `EMAILCONTACT`, `FACEBOOKCONTACT`, `INSTAGRAM`) VALUES
-(1, 'veggie@veggie.cl', 'facebook.com', 'instagram.com');
+(1, 'veggiepoint@gmail.com ', 'https://www.facebook.com/veggie.point.96', 'instagram.comhttps://www.instagram.com/veggiepoint_/');
 
 -- --------------------------------------------------------
 
@@ -90,7 +96,7 @@ CREATE TABLE `information` (
 --
 
 INSERT INTO `information` (`CODWHO`, `WHOARE`) VALUES
-(1, 'contenido...');
+(1, 'Una descripciÃ³n es la acciÃ³n y efecto de describir, esto es, de explicar o representar detalladamente por medio del lenguaje los rasgos caracterÃ­sticos de un objeto, persona, lugar, situaciÃ³n o acontecimiento.\r\n\r\nLa descripciÃ³n tiene como fin crear en el oyente o lector una imagen mental del asunto referido en su ausencia. Gramaticalmente, la palabra descripciÃ³n es un sustantivo femenino.\r\n\r\nLas descripciones pueden variar de tipo segÃºn la funciÃ³n que tienen en el contexto de la comunicaciÃ³n: Ã¡mbitos cientÃ­ficos, literarios, publicitarios, analÃ­ticos, entre otros. Existen diferentes tipos de descripciÃ³n, entre los cuales mencionaremos solo los mÃ¡s comunes.\r\n\r\nTipos de descripciÃ³n\r\nDescripciÃ³n objetiva\r\nSe trata de aquella descripciÃ³n en la que el emisor del mensaje intenta transmitir la imagen de aquello que describe de una manera precisa, sin hacer juicios de valor y sin dejar intervenir los sentimientos.\r\n\r\nEn principio, se supone que una descripciÃ³n objetiva no omitirÃ¡ detalle alguno y pretenderÃ¡ construir un retrato fiel de lo representado, sin jerarquizar los elementos.\r\n\r\nSe usa habitualmente en las diferentes disciplinas cientÃ­ficas para explicar los mÃ¡s diversos fenÃ³menos y conceptos.');
 
 -- --------------------------------------------------------
 
@@ -111,7 +117,10 @@ CREATE TABLE `menu` (
 --
 
 INSERT INTO `menu` (`ID_MENU`, `NAMEMENU`, `MENU_VALUE`, `MENU_DESCRIPTION`, `URLMENU`) VALUES
-(1, 'menu 1', 123, 'sas', '/images/menus/7D3.jpg');
+(1, 'menu 1', 123, 'Esto es la decripcion de menu, Esto es la decripcion de menu, Esto es la decripcion de menu, Esto es la decripcion de menu, Esto es la decripcion de menu, Esto es la decripcion de menu, Esto es la decripcion de menu, Esto es la decripcion de menu, Esto es la decripcion de menu, Esto es la decripcion de menu, Esto es la decripcion de menu, Esto es la decripcion de menu, Esto es la decripcion de menu, Esto es la decripcion de menu, Esto es la decripcion de menu, Esto es la decripcion de menu, Esto es la decripcion de menu, Esto es la decripcion de menu, Esto es la decripcion de menu, Esto es la decripcion de menu, Esto es la decripcion de menu.', 'images/menus/762.jpg'),
+(2, 'Menu 2', 56000, 'Estp es la descirpcion, desdeEstp es la descirpcion, desde,Estp es la descirpcion, desde, Estp es la descirpcion, desdeEstp es la descirpcion, desdeEstp es la descirpcion, desdeEstp es la descirpcion, desdeEstp es la descirpcion, desdeEstp es la descirpcion, desdeEstp es la descirpcion, desdeEstp es la descirpcion, desdeEstp es la descirpcion, desdeEstp es la descirpcion, desde', 'images/menus/27459445_758264044373376_9062405649349888839_n.png'),
+(3, 'Menu 3', 69000, 'Estp es la descirpcion, desdeEstp es la descirpcion, desdeEstp es la descirpcion, desdeEstp es la descirpcion, desdeEstp es la descirpcion, desdeEstp es la descirpcion, desdeEstp es la descirpcion, desdeEstp es la descirpcion, desdeEstp es la descirpcion, desdeEstp es la descirpcion, desdeEstp es la descirpcion, desdeEstp es la descirpcion, desdeEstp es la descirpcion, desdeEstp es la descirpcion, desde', 'images/menus/0C4.jpg'),
+(4, 'menu 11', 12455, '	ID_MENU	ID_MENU	ID_MENU	ID_MENU	ID_MENU	ID_MENU	ID_MENU	ID_MENU	ID_MENU	ID_MENU	ID_MENU	ID_MENU	ID_MENU	ID_MENU	ID_MENU	ID_MENU	ID_MENU	ID_MENU	ID_MENU', 'images/menus/0C9.jpg');
 
 -- --------------------------------------------------------
 
@@ -140,8 +149,8 @@ CREATE TABLE `phone` (
 --
 
 INSERT INTO `phone` (`IDPRODUCT`, `NUMBER`) VALUES
-(3, '56971728999'),
-(4, '571458963');
+(3, '56984877618'),
+(4, '56982270676');
 
 -- --------------------------------------------------------
 
@@ -312,7 +321,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT de la tabla `advancement`
 --
 ALTER TABLE `advancement`
-  MODIFY `IDADVENCEMENT` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `IDADVENCEMENT` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT de la tabla `contact`
@@ -324,7 +333,7 @@ ALTER TABLE `contact`
 -- AUTO_INCREMENT de la tabla `menu`
 --
 ALTER TABLE `menu`
-  MODIFY `ID_MENU` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `ID_MENU` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT de la tabla `phone`

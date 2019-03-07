@@ -10,7 +10,7 @@ $cadenaArreglada = $frm_text;
 $target_path = "../images/products/"; 
 $target_path = $target_path . basename( $_FILES['archivo-a-subir']['name']); 
 
-$base_path = "/images/products/";
+$base_path = "images/products/";
 $cadena_Image = $base_path . basename( $_FILES['archivo-a-subir']['name']); 
 
 if($_FILES['archivo-a-subir']['name'] == ""){

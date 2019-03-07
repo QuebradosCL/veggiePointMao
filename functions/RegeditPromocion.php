@@ -9,7 +9,7 @@
 	$target_path = "../images/promos/"; 
 	$target_path = $target_path . basename( $_FILES['archivo-a-subir']['name']); 
 	
-	$base_path = "/images/promos/";
+	$base_path = "images/promos/";
 	$cadena_Image = $base_path . basename( $_FILES['archivo-a-subir']['name']); 
 	
 	if($_FILES['archivo-a-subir']['name'] == ""){

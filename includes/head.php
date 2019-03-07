@@ -4,8 +4,9 @@
 	    <meta name="description" content="">
 	    <meta name="author" content="">
 	    <title> Veggie Point </title>
-	    <link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Abel|Amatic+SC|Indie+Flower" rel="stylesheet">
 	    <link rel="stylesheet" href="css/style.css">
-	    <link rel="stylesheet" href="css/fonts.css">
+		<link rel="stylesheet" href="css/fonts.css">
 	    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	    <link rel="icon" href="favicon.ico" type="image/x-icon">
